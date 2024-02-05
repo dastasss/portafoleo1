@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+    position: relative;
+    margin-top: -200px; 
+  }
+  #contadorBtn {
+    width: 100px;
+    height: 150px;
+    background-color: rgb(44, 221, 212);
+    border: 2px solid rgb(0, 174, 1225);
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 20px;
+    border-radius: 8px; 
+  }
+  
+  #contador {
+    color: rgb(255, 255, 255);
+  }
+  
+  .contador-display {
+    width: 100px;
+    height: 150px;
+    background-color: rgb(44, 221, 212);
+    border: 2px solid rgb(0, 174, 255);
+    color: white;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    margin-top: 20px;
+    border-radius: 8px;
+  }
+  

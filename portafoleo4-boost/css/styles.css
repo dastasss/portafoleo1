@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 50px;
+}
+
+.separator {
+    margin: 20px 0;
+}
+
+.content {
+    display: flex;
+}
+
+.sidebar {
+    width: 260px;
+    margin-right: 20px;
+    text-align: left;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.main-content {
+    flex-grow: 1;
+    text-align: left;
+}
+
+.description,
+.book-content {
+    width: 100%;
+}
+
+.description p {
+    margin-bottom: 20px;
+}
+
+.book-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.book-content h2 {
+    grid-column: span 3; 
+}
